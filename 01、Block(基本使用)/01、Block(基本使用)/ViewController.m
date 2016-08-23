@@ -29,6 +29,9 @@ int funtion (int a, int b){
 
     return a + b;
 }
+/****
+ 同C语言中的函数结构体相比我们可以看出来其实Block函数与C语言中的函数结构体还是很相似的，都是前面一个返回值类型 + 名字 + （数据）
+ ***/
 
 
 - (void)viewDidLoad {
