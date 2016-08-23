@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330E14301D6C277000C34A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E142F1D6C277000C34A65 /* main.m */; };
+		330E14331D6C277000C34A65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E14321D6C277000C34A65 /* AppDelegate.m */; };
+		330E14361D6C277000C34A65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E14351D6C277000C34A65 /* ViewController.m */; };
+		330E14391D6C277000C34A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E14371D6C277000C34A65 /* Main.storyboard */; };
+		330E143B1D6C277000C34A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330E143A1D6C277000C34A65 /* Assets.xcassets */; };
+		330E143E1D6C277000C34A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330E143C1D6C277000C34A65 /* LaunchScreen.storyboard */; };
+		330E14491D6C277000C34A65 /* _3_Block__Button__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E14481D6C277000C34A65 /* _3_Block__Button__Tests.m */; };
+		330E14541D6C277000C34A65 /* _3_Block__Button__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E14531D6C277000C34A65 /* _3_Block__Button__UITests.m */; };
+		330E14631D6C279800C34A65 /* TSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 330E14621D6C279800C34A65 /* TSButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330E14451D6C277000C34A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E14231D6C277000C34A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E142A1D6C277000C34A65;
+			remoteInfo = "03、Block重写Button事件";
+		};
+		330E14501D6C277000C34A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330E14231D6C277000C34A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330E142A1D6C277000C34A65;
+			remoteInfo = "03、Block重写Button事件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330E142B1D6C277000C34A65 /* 03、Block重写Button事件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "03、Block重写Button事件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E142F1D6C277000C34A65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330E14311D6C277000C34A65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		330E14321D6C277000C34A65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		330E14341D6C277000C34A65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		330E14351D6C277000C34A65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		330E14381D6C277000C34A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330E143A1D6C277000C34A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		330E143D1D6C277000C34A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330E143F1D6C277000C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E14441D6C277000C34A65 /* 03、Block重写Button事件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03、Block重写Button事件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E14481D6C277000C34A65 /* _3_Block__Button__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_Block__Button__Tests.m; sourceTree = "<group>"; };
+		330E144A1D6C277000C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E144F1D6C277000C34A65 /* 03、Block重写Button事件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "03、Block重写Button事件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330E14531D6C277000C34A65 /* _3_Block__Button__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_Block__Button__UITests.m; sourceTree = "<group>"; };
+		330E14551D6C277000C34A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E14611D6C279800C34A65 /* TSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSButton.h; sourceTree = "<group>"; };
+		330E14621D6C279800C34A65 /* TSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330E14281D6C277000C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E14411D6C277000C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E144C1D6C277000C34A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330E14221D6C277000C34A65 = {
+			isa = PBXGroup;
+			children = (
+				330E142D1D6C277000C34A65 /* 03、Block重写Button事件 */,
+				330E14471D6C277000C34A65 /* 03、Block重写Button事件Tests */,
+				330E14521D6C277000C34A65 /* 03、Block重写Button事件UITests */,
+				330E142C1D6C277000C34A65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		330E142C1D6C277000C34A65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330E142B1D6C277000C34A65 /* 03、Block重写Button事件.app */,
+				330E14441D6C277000C34A65 /* 03、Block重写Button事件Tests.xctest */,
+				330E144F1D6C277000C34A65 /* 03、Block重写Button事件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330E142D1D6C277000C34A65 /* 03、Block重写Button事件 */ = {
+			isa = PBXGroup;
+			children = (
+				330E14311D6C277000C34A65 /* AppDelegate.h */,
+				330E14321D6C277000C34A65 /* AppDelegate.m */,
+				330E14341D6C277000C34A65 /* ViewController.h */,
+				330E14351D6C277000C34A65 /* ViewController.m */,
+				330E14611D6C279800C34A65 /* TSButton.h */,
+				330E14621D6C279800C34A65 /* TSButton.m */,
+				330E14371D6C277000C34A65 /* Main.storyboard */,
+				330E143A1D6C277000C34A65 /* Assets.xcassets */,
+				330E143C1D6C277000C34A65 /* LaunchScreen.storyboard */,
+				330E143F1D6C277000C34A65 /* Info.plist */,
+				330E142E1D6C277000C34A65 /* Supporting Files */,
+			);
+			path = "03、Block重写Button事件";
+			sourceTree = "<group>";
+		};
+		330E142E1D6C277000C34A65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				330E142F1D6C277000C34A65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		330E14471D6C277000C34A65 /* 03、Block重写Button事件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				330E14481D6C277000C34A65 /* _3_Block__Button__Tests.m */,
+				330E144A1D6C277000C34A65 /* Info.plist */,
+			);
+			path = "03、Block重写Button事件Tests";
+			sourceTree = "<group>";
+		};
+		330E14521D6C277000C34A65 /* 03、Block重写Button事件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				330E14531D6C277000C34A65 /* _3_Block__Button__UITests.m */,
+				330E14551D6C277000C34A65 /* Info.plist */,
+			);
+			path = "03、Block重写Button事件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330E142A1D6C277000C34A65 /* 03、Block重写Button事件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E14581D6C277000C34A65 /* Build configuration list for PBXNativeTarget "03、Block重写Button事件" */;
+			buildPhases = (
+				330E14271D6C277000C34A65 /* Sources */,
+				330E14281D6C277000C34A65 /* Frameworks */,
+				330E14291D6C277000C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03、Block重写Button事件";
+			productName = "03、Block重写Button事件";
+			productReference = 330E142B1D6C277000C34A65 /* 03、Block重写Button事件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330E14431D6C277000C34A65 /* 03、Block重写Button事件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E145B1D6C277000C34A65 /* Build configuration list for PBXNativeTarget "03、Block重写Button事件Tests" */;
+			buildPhases = (
+				330E14401D6C277000C34A65 /* Sources */,
+				330E14411D6C277000C34A65 /* Frameworks */,
+				330E14421D6C277000C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E14461D6C277000C34A65 /* PBXTargetDependency */,
+			);
+			name = "03、Block重写Button事件Tests";
+			productName = "03、Block重写Button事件Tests";
+			productReference = 330E14441D6C277000C34A65 /* 03、Block重写Button事件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330E144E1D6C277000C34A65 /* 03、Block重写Button事件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330E145E1D6C277000C34A65 /* Build configuration list for PBXNativeTarget "03、Block重写Button事件UITests" */;
+			buildPhases = (
+				330E144B1D6C277000C34A65 /* Sources */,
+				330E144C1D6C277000C34A65 /* Frameworks */,
+				330E144D1D6C277000C34A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330E14511D6C277000C34A65 /* PBXTargetDependency */,
+			);
+			name = "03、Block重写Button事件UITests";
+			productName = "03、Block重写Button事件UITests";
+			productReference = 330E144F1D6C277000C34A65 /* 03、Block重写Button事件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330E14231D6C277000C34A65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tens;
+				TargetAttributes = {
+					330E142A1D6C277000C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					330E14431D6C277000C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 330E142A1D6C277000C34A65;
+					};
+					330E144E1D6C277000C34A65 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 330E142A1D6C277000C34A65;
+					};
+				};
+			};
+			buildConfigurationList = 330E14261D6C277000C34A65 /* Build configuration list for PBXProject "03、Block重写Button事件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330E14221D6C277000C34A65;
+			productRefGroup = 330E142C1D6C277000C34A65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330E142A1D6C277000C34A65 /* 03、Block重写Button事件 */,
+				330E14431D6C277000C34A65 /* 03、Block重写Button事件Tests */,
+				330E144E1D6C277000C34A65 /* 03、Block重写Button事件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330E14291D6C277000C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E143E1D6C277000C34A65 /* LaunchScreen.storyboard in Resources */,
+				330E143B1D6C277000C34A65 /* Assets.xcassets in Resources */,
+				330E14391D6C277000C34A65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E14421D6C277000C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E144D1D6C277000C34A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330E14271D6C277000C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E14631D6C279800C34A65 /* TSButton.m in Sources */,
+				330E14361D6C277000C34A65 /* ViewController.m in Sources */,
+				330E14331D6C277000C34A65 /* AppDelegate.m in Sources */,
+				330E14301D6C277000C34A65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E14401D6C277000C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E14491D6C277000C34A65 /* _3_Block__Button__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330E144B1D6C277000C34A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E14541D6C277000C34A65 /* _3_Block__Button__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330E14461D6C277000C34A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E142A1D6C277000C34A65 /* 03、Block重写Button事件 */;
+			targetProxy = 330E14451D6C277000C34A65 /* PBXContainerItemProxy */;
+		};
+		330E14511D6C277000C34A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330E142A1D6C277000C34A65 /* 03、Block重写Button事件 */;
+			targetProxy = 330E14501D6C277000C34A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330E14371D6C277000C34A65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E14381D6C277000C34A65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330E143C1D6C277000C34A65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330E143D1D6C277000C34A65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330E14561D6C277000C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		330E14571D6C277000C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330E14591D6C277000C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03、Block重写Button事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-3-Block--Button--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		330E145A1D6C277000C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "03、Block重写Button事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-3-Block--Button--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		330E145C1D6C277000C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03、Block重写Button事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-3-Block--Button--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03、Block重写Button事件.app/03、Block重写Button事件";
+			};
+			name = Debug;
+		};
+		330E145D1D6C277000C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "03、Block重写Button事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-3-Block--Button--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/03、Block重写Button事件.app/03、Block重写Button事件";
+			};
+			name = Release;
+		};
+		330E145F1D6C277000C34A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03、Block重写Button事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-3-Block--Button--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03、Block重写Button事件";
+			};
+			name = Debug;
+		};
+		330E14601D6C277000C34A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "03、Block重写Button事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com-tens.-3-Block--Button--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "03、Block重写Button事件";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330E14261D6C277000C34A65 /* Build configuration list for PBXProject "03、Block重写Button事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E14561D6C277000C34A65 /* Debug */,
+				330E14571D6C277000C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330E14581D6C277000C34A65 /* Build configuration list for PBXNativeTarget "03、Block重写Button事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E14591D6C277000C34A65 /* Debug */,
+				330E145A1D6C277000C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		330E145B1D6C277000C34A65 /* Build configuration list for PBXNativeTarget "03、Block重写Button事件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E145C1D6C277000C34A65 /* Debug */,
+				330E145D1D6C277000C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		330E145E1D6C277000C34A65 /* Build configuration list for PBXNativeTarget "03、Block重写Button事件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330E145F1D6C277000C34A65 /* Debug */,
+				330E14601D6C277000C34A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 330E14231D6C277000C34A65 /* Project object */;
+}
